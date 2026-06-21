@@ -31,13 +31,6 @@ body::before {
 .nintendoIntro {
 	text-align: center;
 }
-.tabs {
-    justify-content: center;
-	display: flex;
-	gap: 30px
-
-}
-
 
 
 
