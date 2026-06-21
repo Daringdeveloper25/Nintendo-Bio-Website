@@ -1,0 +1,89 @@
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-button.active {
+  font-weight: bold;
+}
+
+.tabs {
+    justify-content: center;
+    display: flex;
+    gap: 30px;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+	background-image: url("https://wallpapercave.com/wp/wp9088090.jpg");
+    background-size: cover;
+    opacity: 0.4;
+    z-index: -2;
+}
+.nintendoIntro {
+	text-align: center;
+}
+.tabs {
+    justify-content: center;
+	display: flex;
+	gap: 30px
+
+}
+
+
+
+
+
+
+p {
+		font-size: 30px;
+	}
+
+	#mario {
+		background-color: red;
+	}
+	#mario img {
+		height: 250px;
+		width: 300px;
+		transition: ease-in-out 1s;
+		border-radius: 20px
+	}
+	#mario img:hover {
+		height: 350px;
+		width: 400px;
+		transition: ease-in-out 1s;
+	}
+	#luigi {
+		background-color: green;
+	}
+	#peach {
+		background-color: pink;
+	}
+
+	#bowser {
+		background-color: yellow;
+	}
+	#bowserJr {
+		background-color: orangered;
+	}
+
+
+	#line {
+		background-color: black;
+		border-radius: 10px;
+		height: 10px;
+		width: 100%;
+	}
+
+
+	#kirby {
+		background-color: pink;
+	}
