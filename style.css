@@ -32,8 +32,19 @@ body::before {
 	text-align: center;
 }
 
+#marioDesc {
+	background-color: red;
+	border: 5px solid black;
+}
 
-
+#kirbyDesc {
+	background-color: pink;
+	border: 5px solid black;
+}
+#zeldaDesc {
+	background-color: green;
+	border: 5px solid black;
+}
 
 p {
 		font-size: 30px;
@@ -41,6 +52,7 @@ p {
 
 	#mario {
 		background-color: red;
+		
 	}
 	#mario img {
 		height: 250px;
@@ -55,18 +67,22 @@ p {
 	}
 	#luigi {
 		background-color: green;
-	}
+}
 	#peach {
 		background-color: pink;
 	}
 
 	#bowser {
 		background-color: yellow;
+
 	}
 	#bowserJr {
 		background-color: orangered;
-	}
 
+	}
+	.nintendoBorder {
+		border: 5px solid black;
+	}
 
 	#line {
 		background-color: black;
@@ -95,4 +111,23 @@ p {
 	}
 	#zelda {
 		background-color: pink;
+	}
+
+	#villager {
+		background-color: orange;
+	}
+	#isabelle {
+		background-color: yellow;
+	}
+	#tomNook {
+		background-color: brown;
+	}
+	#animalCrossingDesc {
+		background-color: lightblue;
+		border: 5px solid black;
+	}
+
+	#copyrightDesc {
+		background-color: lightgray;
+		border: 5px solid black;
 	}

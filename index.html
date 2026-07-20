@@ -9,6 +9,9 @@
   <button class="tab-button active" data-tab="marioTab">Mario</button>
   <button class="tab-button" data-tab="kirbyTab">Kirby</button>
   <button class="tab-button" data-tab="zeldaTab">Zelda</button>
+  <button class="tab-button" data-tab="animalCrossingTab">Animal Crossing</button>
+  <button class="tab-button" data-tab="copyrightTab">Copyright Disclaimer</button>
+
 		</div>
 	</header>
 	<body>
@@ -30,13 +33,13 @@
 			<a href="#bowser">Bowser</a>
 			<a href="#bowserJr">Bowser Jr</a>
 		</nav>
-		<p>Super Mario is a famous video game franchise that takes place in the Mushroom Kingdom. <br> 
+		
+		<p id="marioDesc">Super Mario is a famous video game franchise that takes place in the Mushroom Kingdom. <br> 
 		With Bowser always kidnapping Princess Peach or trying to conquer the world, <br>
 		Mario is always ready to power up and stomp him back to his castle!</p>
 		</div>
 		<section>
-			<div id="line"></div>
-		<article id="mario">
+		<article id="mario" class="nintendoBorder">
 			<br>
 		<button id="changeMarioBackground">Change Mario Background Color</button><br>
 			<img
@@ -63,8 +66,7 @@
 		</form>
 		<br>
 		</article>
-		<div id="line"></div>
-		<article id="luigi">
+		<article id="luigi" class="nintendoBorder">
 			<br>
 			<img id="luigipic"
 				width=300px
@@ -88,8 +90,7 @@
 			</form>
 			<br>
 		</article>
-		<div id="line"></div>
-		<article id="peach">
+		<article id="peach" class="nintendoBorder">
 			<br>
 			<img id="peachPic"
 				width=300px
@@ -111,8 +112,7 @@
 			</form>
 			<br>
 		</article>
-		<div id="line"></div>
-		<article id="bowser">
+		<article id="bowser" class="nintendoBorder">
 			<br>
 			<img id="bowserPic"
 				width=300px
@@ -134,8 +134,7 @@
 			</form>
 			<br>
 		</article>
-		<div id="line"></div>
-		<article id="bowserJr">
+		<article id="bowserJr" class="nintendoBorder">
 			<br>
 		<img id="bowserJrPic"
 			width=300px
@@ -158,7 +157,6 @@
 		</form>
 		<br>
 		</article>
-		<div id="line"></div>
 		</section>
 </div>
 <section>
@@ -177,11 +175,12 @@
 			<a href="#kingDedede">King Dedede</a>
 			<a href="#metaKnight">Meta Knight</a>
 		</nav>
-		<p>Kirby is another famous video game franchise by Nintendo that takes place in DreamLand <br> 
+		<p id="kirbyDesc">Kirby is another famous video game franchise by Nintendo that takes place in DreamLand <br> 
 		Kirby is always going on wild adventures, from stopping evil tyrants, to taking on magic deities,<br>
 		Kirby is always ready to power up and kick some butt.</p>
 		</div>
-		<article id="kirby">
+		<article id="kirby" class="nintendoBorder">
+			<br>
 		<button id="changeKirbyBackground">Change Kirby Background Color</button><br>
 			<img
 				id="kirbyPic"
@@ -205,10 +204,8 @@
 			<input type="radio" name="copyability">Tornado <br> 
 			<textarea name="othercopyability" rows="5" cols="30" placeholder="Put other copy abilities here"></textarea> <br>
 		</form>
-		
 		</article>
-		<div id="line"></div>
-		<article id="kingDedede">
+		<article id="kingDedede" class="nintendoBorder">
 			<button id="changeKingDededeBackground">Change King Dedede Background Color</button><br>
 			<img
 				id="kingDededePic"
@@ -231,8 +228,7 @@ His signature abilities include powerful hammer swings, inhale-like gulping atta
 			<textarea name="otherDededeMoment" rows="5" cols="30" placeholder="Put other Dedede moments here"></textarea> <br>
 		</form>
 		</article>
-		<div id="line"></div>
-		<article id="metaKnight">
+		<article id="metaKnight" class="nintendoBorder">
 			<img
 			id="metaKnightPic"
 			src="https://th.bing.com/th/id/R.2ff1d8c7fc92d1fc8e3ba0e932f3c38f?rik=c%2faq6zuFZoMG3Q&pid=ImgRaw&r=0"
@@ -253,6 +249,7 @@ His signature abilities include powerful hammer swings, inhale-like gulping atta
 			<textarea name="otherMetaKnightFight" rows="5" cols="30" placeholder="Put other Meta Knight fights here"></textarea> <br>
 			</form>
 		</article>
+	</div>
 	</section>
 	<section>
 		<div class="tab-content" id="zeldaTab">
@@ -270,11 +267,11 @@ His signature abilities include powerful hammer swings, inhale-like gulping atta
 			<a href="#zelda">Zelda</a>
 			<a href="#ganondorf">Ganondorf</a>
 			</nav>
-			<p>The Legend of Zelda is one of Nintendo’s most iconic adventure franchises, unfolding across the mystical kingdom of Hyrule. <br>
+			<p id="zeldaDesc">The Legend of Zelda is one of Nintendo’s most iconic adventure franchises, unfolding across the mystical kingdom of Hyrule. <br>
 Filled with ancient prophecies, magical relics, and timeless battles between light and darkness, each tale follows Link as he rises to face overwhelming odds and protect the land from evil. <br>
 Whether he’s exploring hidden temples, mastering enchanted tools, or teaming up with Princess Zelda to stop powerful foes like Ganondorf, Link’s journeys are legendary—packed with courage, mystery, and unforgettable adventure.</p>
 </div>
-<article id="link">
+<article id="link" class="nintendoBorder">
 	<button id="changeLinkBackground">Change Link Background Color</button><br>
 	<img
 		id="linkPic"
@@ -296,8 +293,7 @@ Whether he’s mastering the Master Sword, solving mystical puzzles, or teaming 
 	<textarea name="otherLinkVariations" rows="5" cols="30" placeholder="Put other Link variations here"></textarea> <br>
 </form>
 </article>
-<div id="line"></div>
-<article id="zelda">
+<article id="zelda" class="nintendoBorder">
 	<button id="changeZeldaBackground">Change Zelda Background</button><br>
 	<img
 		id="zeldaPic"
@@ -320,6 +316,111 @@ Whether she’s channeling the sacred power of Hylia, outsmarting villains like 
 </form>
 </article>
 </section>
+	</div>
+<section>
+<div class="tab-content" id="animalCrossingTab">
+<div class="nintendoIntro">
+		<img
+			width=300px
+			height=250px
+			src="https://d.newsweek.com/en/full/1574934/animal-crossing-new-horizons-logo-box-art.jpg"
+			alt="Animal Crossing Picture"
+			title="Animal Crossing Picture"
+		>
+		<h2>Animal Crossing</h2>
+		<nav>
+			<a href="#villager">Villager</a>
+			<a href="#isabelle">Isabelle</a>
+			<a href="#tomNook">Tom Nook</a>
+		</nav>
+		<p id="animalCrossingDesc">Animal Crossing is a relaxing life simulation franchise by Nintendo that takes place in charming villages and islands filled with friendly animal neighbors. <br>
+		Players can build their own homes, decorate their surroundings, make new friends, and create their own perfect getaway. <br>
+		From fishing and collecting to celebrating seasonal events, Animal Crossing lets everyone enjoy a peaceful adventure at their own pace.</p>
+		</div>
+		<article id="villager" class="nintendoBorder">
+		<button id="changeVillagerBackground">Change Villager Background Color</button><br>
+			<img
+				id="villagerPic"
+				width=300px
+				height=250px
+				src="https://th.bing.com/th/id/R.e688e70c17703256480a657d4608712f?rik=MBINvWln5Kyx6w&pid=ImgRaw&r=0"
+				alt="Picture of Villager"
+				title="Picture of Villager"
+			> <br>
+			<button id="changeVillager">Change Villager</button>
+			<p id="villagerText">The Villager is the customizable main character of the Animal Crossing series, serving as the player’s role within the world. <br>
+Whether they are building a new home, making friends with villagers, or creating the perfect island, the Villager is always at the center of the adventure. <br>
+In many games, the Villager takes on the role of mayor or island representative, helping shape the community by designing the town, improving facilities, and making important decisions. <br>
+With endless creativity and the freedom to play at their own pace, the Villager turns every Animal Crossing town into a unique place they can call home.</p>
+			<button id="changeVillagerText">Change Villager Text</button>
+		<form>
+			Which Animal Crossing Villager is your favorite? <br>
+			<input type="radio" name="villager">K.K. Slider <br>
+			<input type="radio" name="villager">Isabelle <br>
+			<input type="radio" name="villager">Tom Nook <br>
+			<textarea name="othervillagers" rows="5" cols="30" placeholder="Put other villagers here"></textarea> <br>
+		</form>
+		
+		</article>
+		<article id="isabelle" class="nintendoBorder">
+			<button id="changeIsabelleBackground">Change Isabelle Background Color</button><br>
+			<img
+				id="isabellePic"
+				width=300px
+				height=250px
+				src="https://static.wikitide.net/greatcharacterswiki/8/86/Yup.png"
+				alt="Picture of Isabelle"
+				title="Picture of Isabelle"
+			> <br>
+			<button id="changeIsabelle">Change Isabelle</button>
+			<p id="isabelleText">Isabelle is a helpful assistant in the Animal Crossing series, often serving as the town's receptionist and providing various services to the player. <br>
+She is known for her cheerful personality and her ability to assist with tasks such as organizing events, managing the town's schedule, and providing information about the game world.</p>
+			<button id="changeIsabelleText">Change Isabelle Text</button>
+		<form>
+			Which Isabelle moment is your favorite? <br>
+			<input type="radio" name="isabelleMoment">When she helps with town improvements <br>
+			<input type="radio" name="isabelleMoment">When she gives you advice <br>
+			<input type="radio" name="isabelleMoment">When she's excited about new features <br>
+			<textarea name="otherIsabelleMoment" rows="5" cols="30" placeholder="Put other Isabelle moments here"></textarea> <br>
+		</form>
+		</article>
+		<article id="tomNook" class="nintendoBorder">
+			<img
+			id="tomNookPic"
+			src="https://tse1.mm.bing.net/th/id/OIP.h0TAggST6dh4hiTRRnlkoQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
+			width= 400px
+			height= 300px
+			title="Picture of Tom Nook"
+			alt="Picture of Tom Nook"
+		> <br>
+		<button id="changeTomNook">Change Tom Nook</button><br>
+		<p>Tom Nook is the owner of Nook's Cranny in the Animal Crossing series! <br>
+		He is known for his distinctive appearance and his role in helping players manage their town's economy. <br>
+		His signature abilities include his unique way of interacting with players and his influence on the game's financial systems</p> <br>
+			<form>
+			Which Tom Nook shop is your favorite? <br>
+			<input type="radio" name="tomNookShop">His shop in City Folk <br>
+			<input type="radio" name="tomNookShop">His shop in New Horizons <br>
+			<input type="radio" name="tomNookShop">His shop in Wild World <br>
+			<textarea name="otherTomNookShop" rows="5" cols="30" placeholder="Put other Tom Nook shops here"></textarea> <br>
+			</form>
+		</article>
+		</section>
+	</div>
+	<section>
+	<div class="tab-content" id="copyrightTab">
+	<div class="nintendoIntro">
+		<h2>Copyright</h2>
+		<p id="copyrightDesc">This website was created for entertainment purposes and to help build career skills only.
+			No profit is being made from this project. 
+			Mario, Kirby, The Legend of Zelda, Animal Crossing, and all other Nintendo franchises, characters, images, 
+			and related content are owned by Nintendo and their respective owners. 
+			This site is not affiliated with, sponsored by, or endorsed by Nintendo. 
+			Please support the official releases and products.</p>
+		</div>
+	</div>
+	</section>
+
 			<script src="script.js"></script>
 	</body>
 </html>
