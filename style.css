@@ -127,6 +127,11 @@ p {
 		border: 5px solid black;
 	}
 
+	#metroidDesc {
+		background-color: plum;
+		border: 5px solid black;
+	}
+
 	#copyrightDesc {
 		background-color: lightgray;
 		border: 5px solid black;
