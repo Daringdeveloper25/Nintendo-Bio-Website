@@ -227,3 +227,25 @@ bowserJrButton.addEventListener("click", function () {
     }
 })
 
+let kirbyButton = document.getElementById("changeKirby");
+let newKirbyPic = document.getElementById("kirbyPic");
+
+kirbyButton.addEventListener("click", function () {
+    let randomPicture = Math.floor(Math.random() * 5) + 1;
+
+    if (randomPicture === 1) {
+        newKirbyPic.src = "https://tse4.mm.bing.net/th/id/OIP.7uf-SJMAu3dE4nmQ02T99wHaHF?rs=1&pid=ImgDetMain&o=7&rm=3";
+    }
+    else if (randomPicture === 2) {
+        newKirbyPic.src = "https://th.bing.com/th/id/R.99d534d7db36f69caa22fba68b8b7afb?rik=Dlg5UrZrr1kLIw&riu=http%3a%2f%2fvignette2.wikia.nocookie.net%2fkirby%2fimages%2ff%2ffe%2fKirbyKSSUwalk.png%2frevision%2flatest%3fcb%3d20110408075852%26path-prefix%3den&ehk=5RZpcKPUlMJYN7Rp7uHNd5e107%2fHE%2f4PWG1G0TozgKs%3d&risl=&pid=ImgRaw&r=0";
+    }
+    else if (randomPicture === 3) {
+        newKirbyPic.src = "https://images7.alphacoders.com/138/1383811.webp"
+    }
+    else if (randomPicture === 4) {
+        newKirbyPic.src = "https://th.bing.com/th/id/R.46f12b4e482805ef1c672404148fccb7?rik=x%2f0TTjGDe0zbLQ&pid=ImgRaw&r=0"
+    }
+    else if (randomPicture === 5) {
+        newKirbyPic.src = "https://tse4.mm.bing.net/th/id/OIP.9k-iI1BGd31nL5sjMItdAQHaHU?r=0&rs=1&pid=ImgDetMain&o=7&rm=3";
+    }
+})
