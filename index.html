@@ -26,8 +26,8 @@
 			alt="Super Mario Picture"
 			title="Super Mario Picture"
 		>
-		<h2>Super Mario Bros</h2>
-		<nav>
+		<h2 id="superMarioHeading">Super Mario Bros</h2>
+		<nav id="superMarioNav">
 			<a href="#mario">Mario</a>
 			<a href="#luigi">Luigi</a>
 			<a href="#peach">Princess Peach</a>
@@ -52,18 +52,18 @@
 				title="Picture of Mario"
 			> <br>
 			<button id="changeMario">Change Mario</button>
-			<p id="mariotext">Mario is the whimsical hero of the Super Mario Bros series! <br>
+			<p id="mariotext" class="marioCharacterText">Mario is the whimsical hero of the Super Mario Bros series! <br>
 			With an arsenal of power-ups and years of parkour experience, he is always ready to kick Bowser and his army's tails! <br>
 			His power-ups include the Mushroom, the Fire Flower, the Tanooki Leaf and the Invincible Star</p>
 			<button id="changeMarioText">Change Mario Text</button>
-		<form>
+		<form id="marioForm" class="marioCharacterForm">
 			Which Mario power-up is your favorite? <br>
 			<input type="radio" name="powerup">The Super Mushroom <br>
 			<input type="radio" name="powerup">The Fire Flower <br>
 			<input type="radio" name="powerup">The Invincible Star <br>
 			<input type="radio" name="galaxypower">The Spring Mushroom <br>
 			<input type="radio" name="galaxypower">The Rock Mushroom <br> 
-			<textarea name="galaxypower" rows="5" cols="30" placeholder="Put other powerups here"></textarea> <br>
+			<textarea class="marioCharacterTextArea" id="otherGalaxyPowers" rows="5" cols="30" placeholder="Put other powerups here"></textarea> <br>
 		</form>
 		<br>
 		</article>
@@ -77,17 +77,17 @@
 				title="Picture of Luigi"
 			> <br>
 			<button id="changeLuigi">Change Luigi</button>
-			<p id="luigiText">Luigi is Mario's clumsy and often fear prone younger brother. <br>
+			<p id="luigiText" class="marioCharacterText">Luigi is Mario's clumsy and often fear prone younger brother. <br>
 			He is almost always by Mario's side in his games and adventures and is often a playable character. <br>
 			He is brave when he needs to be, as shown in the Luigi's Mansion Series. With his own set of skills and
 			resourcefulness, he is always ready to lend Mario a helping hand.</p> <br>
 			<button id="changeLuigiText">Change Luigi Text</button>
-			<form>
+			<form id="luigiForm" class="marioCharacterForm">
 				Which Luigi moment is your favorite? <br>
 				<input type="radio" name="luigimoment">Luigi defeating King Boo <br>
 				<input type="radio" name="luigimoment">Luigi getting cool powers in Dream Team <br>
 				<input type="radio" name="luigimoment">When Luigi teamed up with Mario and used the Invincble Star to defeat Bowser in the movie. <br>
-				<textarea id="luigiMomentText" rows="5" cols="30" placeholder="Put other Luigi Moments Here"></textarea> <br>
+				<textarea class="marioCharacterTextArea" id="luigiMomentText" rows="5" cols="30" placeholder="Put other Luigi Moments Here"></textarea> <br>
 			</form>
 			<br>
 		</article>
@@ -101,15 +101,15 @@
 				title="Picture of Princess Peach"
 			> <br>
 			<button id="changePeach">Change Peach</button> <br>
-			<p>Princess Peach is the ruler and protector of the Mushroom Kingdom. At first, she has always been prone to being kidnapped by Bowser, <br>
+			<p id="peachText" class="marioCharacterText">Princess Peach is the ruler and protector of the Mushroom Kingdom. At first, she has always been prone to being kidnapped by Bowser, <br>
 			but as the series went on, she has become more and more independent and capable of taking enemies out on her own, as demonstrated in a few of her standalone games. <br>
 			As the princess of the Mushroom Kingdom and one of Mario's strongest allies, she is always ready to lend Mario a helping hand! </p>
-			<form>
+			<form id="peachForm" class="marioCharacterForm">
 				What is your favorite Princess Peach media? <br>
 				<input type="radio" name="peachmedia">Super Princess Peach <br>
 				<input type="radio" name="peachmedia">Princess Peach Showtime <br>
 				<input type="radio" name="peachmedia">Princess Peach in the movies <br>
-				<textarea id="peachMediaText" rows="5" cols="30" placeholder="Write other Peach moments here"></textarea>
+				<textarea class="marioCharacterTextArea" id="peachMediaText" rows="5" cols="30" placeholder="Write other Peach moments here"></textarea>
 			</form>
 			<br>
 		</article>
@@ -123,15 +123,15 @@
 				title="Picture of Bowser"
 			> <br>
 			<button id="changeBowser">Change Bowser</button>
-			<p>Bowser is the tyrannical king of the koopas and the archenemy of the Super Mario Bros. <br>
+			<p id="bowserText" class="marioCharacterText">Bowser is the tyrannical king of the koopas and the archenemy of the Super Mario Bros. <br>
 			He has come up with countless ways to try and conquer the Mushroom Kingdom, sometimes even the world, and occasionall even the whole galaxy. <br>
 			Luckily, Mario is always ready to kick his tail and knock him all the way back to his castle! </p> <br>
-			<form>
+			<form id="bowserForm" class="marioCharacterForm">
 				What is your favorite Bowser Moment? <br>
 				<input type="radio" name="bowserMoment">When Bowser turns into a giant castle <br>
 				<input type="radio" name="bowserMoment">When Bowser transforms into Meowser <br>
 				<input type="radio" name="bowserMoment">When Bowser is played by Jack Black in the movies <br>
-				<textarea name="otherBowserMoments" placeholder="Place other moments here" rows="5" cols="30"></textarea>
+				<textarea class="marioCharacterTextArea" name="otherBowserMoments" placeholder="Place other moments here" rows="5" cols="30"></textarea>
 			</form>
 			<br>
 		</article>
@@ -145,16 +145,16 @@
 			title="Picture of Bowser Jr"
 		> <br>
 		<button id="changeBowserJr">Change Bowser Jr</button>
-		<p>Bowser Jr is the son of Bowser and the young prince of the Koopas. <br>
+		<p id="bowserJrText" class="marioCharacterText">Bowser Jr is the son of Bowser and the young prince of the Koopas. <br>
 		He is almost always teaming up with his dad to take down the Super Mario Bros.<br>
 		First appearing in Super Mario Sunshine, he has his magic paintbrush by his side and can use it to
 		create anything he can imagine.</p><br>
-		<form>
+		<form id="bowserJrForm" class="marioCharacterForm">
 			What is your favorite Bowser Jr moment? <br>
 			<input type="radio" name="bowserJrMoment">When he turns into Shadow Mario in Sunshine <br>
 			<input type="radio" name="bowserJrMoment">When he uses Wonder Power <br>
 			<input type="radio" name="bowserJrMoment">His moments in the Super Mario Galaxy Movie. <br>
-			<textarea name="otherBowserJrMoments" placeholder="Write down other moments here" rows="5" cols="30"></textarea>
+			<textarea class="marioCharacterTextArea" name="otherBowserJrMoments" placeholder="Write down other moments here" rows="5" cols="30"></textarea>
 		</form>
 		<br>
 		</article>

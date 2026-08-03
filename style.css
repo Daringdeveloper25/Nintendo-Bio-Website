@@ -1,3 +1,16 @@
+nav a:link,
+nav a:visited {
+    color: blue;
+}
+
+nav a:hover {
+    color: darkblue;
+}
+
+nav a:active {
+    color: blue;
+}
+
 .tab-content {
   display: none;
 }
@@ -28,6 +41,22 @@ body::before {
     opacity: 0.4;
     z-index: -2;
 }
+
+
+@font-face {
+    font-family: "KiwiSoda";
+    src: url("./fonts/KiwiSoda.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Daydream";
+    src: url("./fonts/Daydream DEMO.otf") format("truetype");
+}
+@font-face {
+    font-family: "Mariofont";
+    src: url("./fonts/SuperMario256.ttf") format("truetype");
+}
+
+
 .nintendoIntro {
 	text-align: center;
 }
@@ -35,6 +64,7 @@ body::before {
 #marioDesc {
 	background-color: red;
 	border: 5px solid black;
+	font-family: "Mariofont", sans-serif;
 }
 
 #kirbyDesc {
@@ -54,6 +84,9 @@ p {
 		background-color: red;
 		
 	}
+	#mariotext {
+		font-family: "Mariofont";
+	}
 	#mario img {
 		height: 250px;
 		width: 300px;
@@ -65,9 +98,24 @@ p {
 		width: 400px;
 		transition: ease-in-out 1s;
 	}
+	.marioCharacterText {
+		font-family: "Mariofont";
+	}
+	.marioCharacterForm {
+		font-family: "Mariofont";
+	}
+	.marioCharacterTextArea {
+		font-family: "Mariofont";
+	}
+	#superMarioHeading {
+		font-family: "Mariofont";
+	}
+	#superMarioNav {
+		font-family: "Mariofont";
+	}
 	#luigi {
 		background-color: green;
-}
+	}
 	#peach {
 		background-color: pink;
 	}
@@ -142,3 +190,4 @@ p {
 		background-color: lightgray;
 		border: 5px solid black;
 	}
+
