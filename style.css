@@ -55,8 +55,22 @@ body::before {
     font-family: "Mariofont";
     src: url("./fonts/SuperMario256.ttf") format("truetype");
 }
+@font-face {
+    font-family: "Zeldafont";
+    src: url("./fonts/TheWildBreathOfZelda-15Lv.ttf") format("truetype");
+}
+@font-face {
+    font-family: "AnimalCrossingfont";
+    src: url("./fonts/qlarendon.otf") format("truetype");
+}
 
+.ZeldaStyleFont {
+	font-family: "Zeldafont";
+}
 
+.animalStyleFont {
+	font-family: "AnimalCrossingfont";
+}
 .nintendoIntro {
 	text-align: center;
 }
