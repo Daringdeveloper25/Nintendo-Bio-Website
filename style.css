@@ -63,9 +63,41 @@ body::before {
     font-family: "AnimalCrossingfont";
     src: url("./fonts/qlarendon.otf") format("truetype");
 }
+@font-face {
+    font-family: "Kirbyfont";
+    src: url("./fonts/kirby-classic.ttf") format("truetype");
+}
 
+#marioTabButton {
+	font-family: "Mariofont";
+	border-radius: 5px;
+	background-color: lightcoral;
+}
+#marioTabButton.active {
+	background-color: red;
+}
+#zeldaTabButton {
+	font-family: "Zeldafont";
+	border-radius: 5px;
+	background-color: lightgreen;
+}
+#zeldaTabButton.active {
+	background-color: green;
+}
 .ZeldaStyleFont {
 	font-family: "Zeldafont";
+}
+#kirbyTabButton {
+	font-family: "Kirbyfont";
+	border-radius: 5px;
+	background-color: lightpink;
+}
+#kirbyTabButton.active {
+	background-color: palevioletred;
+}
+
+.KirbyTextFont {
+	font-family: "Kirbyfont";
 }
 
 .animalStyleFont {
@@ -74,7 +106,9 @@ body::before {
 .nintendoIntro {
 	text-align: center;
 }
-
+.marioStyleFont {
+	font-family: "Mariofont"
+}
 #marioDesc {
 	background-color: red;
 	border: 5px solid black;

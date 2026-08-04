@@ -6,9 +6,9 @@
 	</head>
 	<header>
 		<div class="tabs">
-  <button class="tab-button active" data-tab="marioTab">Mario</button>
-  <button class="tab-button" data-tab="kirbyTab">Kirby</button>
-  <button class="tab-button" data-tab="zeldaTab">Zelda</button>
+  <button class="tab-button active" data-tab="marioTab" id="marioTabButton">Mario</button>
+  <button class="tab-button" data-tab="kirbyTab" id="kirbyTabButton">Kirby</button>
+  <button class="tab-button" data-tab="zeldaTab" id="zeldaTabButton">Zelda</button>
   <button class="tab-button" data-tab="animalCrossingTab">Animal Crossing</button>
   <button class="tab-button" data-tab="metroidTab">Metroid</button>
   <button class="tab-button" data-tab="copyrightTab">Copyright Disclaimer</button>
@@ -42,7 +42,7 @@
 		<section>
 		<article id="mario" class="nintendoBorder">
 			<br>
-		<button id="changeMarioBackground">Change Mario Background Color</button><br>
+		<button id="changeMarioBackground" class="marioStyleFont">Change Mario Background Color</button><br>
 			<img
 				id="marioPic"
 				width=300px
@@ -51,11 +51,11 @@
 				alt="Picture of Mario"
 				title="Picture of Mario"
 			> <br>
-			<button id="changeMario">Change Mario</button>
+			<button id="changeMario" class="marioStyleFont">Change Mario</button>
 			<p id="mariotext" class="marioCharacterText">Mario is the whimsical hero of the Super Mario Bros series! <br>
 			With an arsenal of power-ups and years of parkour experience, he is always ready to kick Bowser and his army's tails! <br>
 			His power-ups include the Mushroom, the Fire Flower, the Tanooki Leaf and the Invincible Star</p>
-			<button id="changeMarioText">Change Mario Text</button>
+			<button id="changeMarioText" class="marioStyleFont">Change Mario Text</button>
 		<form id="marioForm" class="marioCharacterForm">
 			Which Mario power-up is your favorite? <br>
 			<input type="radio" name="powerup">The Super Mushroom <br>
@@ -76,12 +76,12 @@
 				alt="Picture of Luigi"
 				title="Picture of Luigi"
 			> <br>
-			<button id="changeLuigi">Change Luigi</button>
+			<button id="changeLuigi" class="marioStyleFont">Change Luigi</button>
 			<p id="luigiText" class="marioCharacterText">Luigi is Mario's clumsy and often fear prone younger brother. <br>
 			He is almost always by Mario's side in his games and adventures and is often a playable character. <br>
 			He is brave when he needs to be, as shown in the Luigi's Mansion Series. With his own set of skills and
 			resourcefulness, he is always ready to lend Mario a helping hand.</p> <br>
-			<button id="changeLuigiText">Change Luigi Text</button>
+			<button id="changeLuigiText" class="marioStyleFont">Change Luigi Text</button>
 			<form id="luigiForm" class="marioCharacterForm">
 				Which Luigi moment is your favorite? <br>
 				<input type="radio" name="luigimoment">Luigi defeating King Boo <br>
@@ -100,7 +100,7 @@
 				alt="Picture of Princess Peach"
 				title="Picture of Princess Peach"
 			> <br>
-			<button id="changePeach">Change Peach</button> <br>
+			<button id="changePeach" class="marioStyleFont">Change Peach</button> <br>
 			<p id="peachText" class="marioCharacterText">Princess Peach is the ruler and protector of the Mushroom Kingdom. At first, she has always been prone to being kidnapped by Bowser, <br>
 			but as the series went on, she has become more and more independent and capable of taking enemies out on her own, as demonstrated in a few of her standalone games. <br>
 			As the princess of the Mushroom Kingdom and one of Mario's strongest allies, she is always ready to lend Mario a helping hand! </p>
@@ -122,7 +122,7 @@
 				alt="Picture of Bowser"
 				title="Picture of Bowser"
 			> <br>
-			<button id="changeBowser">Change Bowser</button>
+			<button id="changeBowser" class="marioStyleFont">Change Bowser</button>
 			<p id="bowserText" class="marioCharacterText">Bowser is the tyrannical king of the koopas and the archenemy of the Super Mario Bros. <br>
 			He has come up with countless ways to try and conquer the Mushroom Kingdom, sometimes even the world, and occasionall even the whole galaxy. <br>
 			Luckily, Mario is always ready to kick his tail and knock him all the way back to his castle! </p> <br>
@@ -144,7 +144,7 @@
 			alt="Picture of Bowser Jr"
 			title="Picture of Bowser Jr"
 		> <br>
-		<button id="changeBowserJr">Change Bowser Jr</button>
+		<button id="changeBowserJr" class="marioStyleFont">Change Bowser Jr</button>
 		<p id="bowserJrText" class="marioCharacterText">Bowser Jr is the son of Bowser and the young prince of the Koopas. <br>
 		He is almost always teaming up with his dad to take down the Super Mario Bros.<br>
 		First appearing in Super Mario Sunshine, he has his magic paintbrush by his side and can use it to
@@ -170,19 +170,19 @@
 			alt="Kirby Picture"
 			title="Kirby Picture"
 		>
-		<h2>Kirby</h2>
-		<nav>
+		<h2 class="KirbyTextFont">Kirby</h2>
+		<nav class="KirbyTextFont">
 			<a href="#kirby">Kirby</a>
 			<a href="#kingDedede">King Dedede</a>
 			<a href="#metaKnight">Meta Knight</a>
 		</nav>
-		<p id="kirbyDesc">Kirby is another famous video game franchise by Nintendo that takes place in DreamLand <br> 
+		<p id="kirbyDesc" class="KirbyTextFont">Kirby is another famous video game franchise by Nintendo that takes place in DreamLand <br> 
 		Kirby is always going on wild adventures, from stopping evil tyrants, to taking on magic deities,<br>
 		Kirby is always ready to power up and kick some butt.</p>
 		</div>
 		<article id="kirby" class="nintendoBorder">
 			<br>
-		<button id="changeKirbyBackground">Change Kirby Background Color</button><br>
+		<button id="changeKirbyBackground" class="KirbyTextFont">Change Kirby Background Color</button><br>
 			<img
 				id="kirbyPic"
 				width=300px
@@ -191,23 +191,23 @@
 				alt="Picture of Kirby"
 				title="Picture of Kirby"
 			> <br>
-			<button id="changeKirby">Change Kirby</button>
-			<p id="kirbyText">Kirby is the pink puffball hero of the Kirby series! <br>
+			<button id="changeKirby" class="KirbyTextFont">Change Kirby</button>
+			<p id="kirbyText" class="KirbyTextFont">Kirby is the pink puffball hero of the Kirby series! <br>
 			With an arsenal of copy abilities and slew of other skills, he is ready to handle whatever the universe throws at him! <br>
 			His copy abilities include Fire, Sword, Ice, and Stone</p>
-			<button id="changeKirbyText">Change Kirby Text</button>
-		<form>
+			<button id="changeKirbyText" class="KirbyTextFont">Change Kirby Text</button>
+		<form class="KirbyTextFont">
 			Which Kirby Copy Ability is your favorite? <br>
 			<input type="radio" name="copyability">Fire <br>
 			<input type="radio" name="copyability">Sword <br>
 			<input type="radio" name="copyability">Ice <br>
 			<input type="radio" name="copyability">Stone <br>
 			<input type="radio" name="copyability">Tornado <br> 
-			<textarea name="othercopyability" rows="5" cols="30" placeholder="Put other copy abilities here"></textarea> <br>
+			<textarea name="othercopyability" class="KirbyTextFont" rows="5" cols="30" placeholder="Put other copy abilities here"></textarea> <br>
 		</form>
 		</article>
 		<article id="kingDedede" class="nintendoBorder">
-			<button id="changeKingDededeBackground">Change King Dedede Background Color</button><br>
+			<button id="changeKingDededeBackground" class="KirbyTextFont">Change King Dedede Background Color</button><br>
 			<img
 				id="kingDededePic"
 				width=300px
@@ -216,17 +216,17 @@
 				alt="Picture of Dedede"
 				title="Picture of Dedede"
 			> <br>
-			<button id="changeKingDedede">Change King Dedede</button>
-			<p id="kingDededeText">King Dedede is the self-proclaimed king of Dream Land in the Kirby series! <br>
+			<button id="changeKingDedede" class="KirbyTextFont">Change King Dedede</button>
+			<p id="kingDededeText" class="KirbyTextFont">King Dedede is the self-proclaimed king of Dream Land in the Kirby series! <br>
 Armed with his massive hammer and surprisingly strong strength, he is always ready for a fight—whether as an enemy or reluctant ally! <br>
 His signature abilities include powerful hammer swings, inhale-like gulping attacks, and devastating shockwaves</p>
-			<button id="changeKingDededeText">Change King Dedede Text</button>
-		<form>
+			<button id="changeKingDededeText" class="KirbyTextFont">Change King Dedede Text</button>
+		<form class="KirbyTextFont">
 			Which King Dedede moment is your favorite? <br>
 			<input type="radio" name="dededeMoment">When he becomes Masked Dedede <br>
 			<input type="radio" name="dededeMoment">When he finally becomes good <br>
 			<input type="radio" name="dededeMoment">When you can play as him in Kirby Triple Deluxe <br>
-			<textarea name="otherDededeMoment" rows="5" cols="30" placeholder="Put other Dedede moments here"></textarea> <br>
+			<textarea name="otherDededeMoment" class="KirbyTextFont" rows="5" cols="30" placeholder="Put other Dedede moments here"></textarea> <br>
 		</form>
 		</article>
 		<article id="metaKnight" class="nintendoBorder">
@@ -238,16 +238,16 @@ His signature abilities include powerful hammer swings, inhale-like gulping atta
 			title="Picture of Meta Knight"
 			alt="Picture of Meta Knight"
 		> <br>
-		<button id="changeMetaKnight">Change Meta Knight</button><br>
-		<p>Meta Knight is the mysterious masked swordsman of the Kirby series! <br>
+		<button id="changeMetaKnight" class="KirbyTextFont">Change Meta Knight</button><br>
+		<p class="KirbyTextFont">Meta Knight is the mysterious masked swordsman of the Kirby series! <br>
 		Wielding his legendary sword, Galaxia, and a pair of powerful wings, he fights with unmatched speed, skill, and honor! <br>
 		His signature abilities include swift sword strikes, aerial attacks, spinning slashes, and powerful energy techniques</p> <br>
-			<form>
+			<form class="KirbyTextFont">
 			Which Meta Knight fight is your favorite <br>
 			<input type="radio" name="metaKnightFight">Super Star and Super Star Ultra<br>
 			<input type="radio" name="metaKnightFight">Planet Robobot <br>
 			<input type="radio" name="metaKnightFight">Forgotten Land <br>
-			<textarea name="otherMetaKnightFight" rows="5" cols="30" placeholder="Put other Meta Knight fights here"></textarea> <br>
+			<textarea name="otherMetaKnightFight" class="KirbyTextFont" rows="5" cols="30" placeholder="Put other Meta Knight fights here"></textarea> <br>
 			</form>
 		</article>
 	</div>
@@ -273,7 +273,7 @@ Filled with ancient prophecies, magical relics, and timeless battles between lig
 Whether he’s exploring hidden temples, mastering enchanted tools, or teaming up with Princess Zelda to stop powerful foes like Ganondorf, Link’s journeys are legendary; packed with courage, mystery, and unforgettable adventure.</p>
 </div>
 <article id="link" class="nintendoBorder">
-	<button id="changeLinkBackground">Change Link Background Color</button><br>
+	<button id="changeLinkBackground" class="ZeldaStyleFont">Change Link Background Color</button><br>
 	<img
 		id="linkPic"
 		src="https://tse3.mm.bing.net/th/id/OIP.lygNuKyE3SO_9nDG5tCYmwHaK_?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
@@ -282,7 +282,7 @@ Whether he’s exploring hidden temples, mastering enchanted tools, or teaming u
 		alt="Picture of Link"
 		title="Picture of Link"
 	><br>
-	<button id="changeLink">Change Link</button>
+	<button id="changeLink" class="ZeldaStyleFont">Change Link</button>
 	<p class="ZeldaStyleFont">Link is the brave, sword‑wielding hero at the heart of The Legend of Zelda series.<br> 
 Across countless eras and incarnations, he rises to defend Hyrule from ancient darkness, guided by courage, destiny, and an unshakable sense of duty.<br>
 Whether he’s mastering the Master Sword, solving mystical puzzles, or teaming up with Princess Zelda to stop powerful foes like Ganondorf, Link is always ready to charge into adventure and protect the world from evil.</p><br>
@@ -295,7 +295,7 @@ Whether he’s mastering the Master Sword, solving mystical puzzles, or teaming 
 </form>
 </article>
 <article id="zelda" class="nintendoBorder">
-	<button id="changeZeldaBackground">Change Zelda Background</button><br>
+	<button id="changeZeldaBackground" class="ZeldaStyleFont">Change Zelda Background</button><br>
 	<img
 		id="zeldaPic"
 		src="https://tse1.mm.bing.net/th/id/OIP.EsJdXeQJT8Gy4jQtIWJgNQHaNR?r=0&rs=1&pid=ImgDetMain&o=7&rm=3"
@@ -304,7 +304,7 @@ Whether he’s mastering the Master Sword, solving mystical puzzles, or teaming 
 		alt="Picture of Zelda"
 		title="Picture of Zelda"
 	><br>
-	<button id="changeZelda">Change Zelda</button>
+	<button id="changeZelda" class="ZeldaStyleFont">Change Zelda</button>
 	<p class="ZeldaStyleFont">Princess Zelda is the wise and powerful guardian of Hyrule, destined to stand at the center of its greatest legends.<br>
 Gifted with deep magical abilities and an unbreakable spirit, she guides the kingdom through eras of turmoil, often working alongside Link to confront looming darkness.<br>
 Whether she’s channeling the sacred power of Hylia, outsmarting villains like Ganondorf, or taking on heroic roles of her own, Zelda remains a symbol of hope, wisdom, and strength throughout every age of Hyrule.</p><br>\
