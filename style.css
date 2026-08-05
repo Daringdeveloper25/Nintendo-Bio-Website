@@ -81,8 +81,16 @@ body::before {
 	border-radius: 5px;
 	background-color: lightgreen;
 }
+#animalCrossingButton {
+	font-family: "Animalcrossingfont";
+	border-radius: 5px;
+	background-color: lightblue;
+}
 #zeldaTabButton.active {
 	background-color: green;
+}
+#animalCrossingButton.active {
+	background-color: deepskyblue;
 }
 .ZeldaStyleFont {
 	font-family: "Zeldafont";
